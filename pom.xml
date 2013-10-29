@@ -3,13 +3,13 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.424</version>
+    <version>1.537</version>
   </parent>
   
   <artifactId>plot</artifactId>
   <packaging>hpi</packaging>
   <name>Plot plugin</name>
-  <version>1.6.2</version>
+  <version>1.6.3</version>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Plot+Plugin</url>
 
   <developers>
@@ -25,11 +25,6 @@
   </contributors>
 
   <dependencies>
-        <dependency>
-            <groupId>jfree</groupId>
-            <artifactId>jfreechart</artifactId>
-            <version>1.0.4</version>
-        </dependency>
         <dependency>
             <groupId>net.sf.opencsv</groupId>
             <artifactId>opencsv</artifactId>
@@ -75,5 +70,3 @@
         </pluginRepository>
     </pluginRepositories>
 </project>  
-  
-
